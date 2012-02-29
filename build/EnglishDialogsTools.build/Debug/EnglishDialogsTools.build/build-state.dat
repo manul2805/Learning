@@ -1,0 +1,613 @@
+TEnglishDialogsTools
+v7
+r0
+t349702429.680106
+cCheck dependencies
+cProcessInfoPlistFile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Info.plist EnglishDialogsTools-Info.plist
+cCopyStringsFile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib
+cCpResource build/Debug/EnglishDialogsTools.app/Contents/Resources/test.txt test.txt
+cCompileXIB /Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib
+cProcessPCH /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch.gch EnglishDialogsTools_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch.gch EnglishDialogsTools_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/main.o /Users/manul/Documents/EnglishDialogsTools/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsToolsAppDelegate.o /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Actor.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Dialog.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Phrase.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/NewDialogViewController.o /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/main.o /Users/manul/Documents/EnglishDialogsTools/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsToolsAppDelegate.o /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Actor.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Dialog.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Phrase.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/NewDialogViewController.o /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools normal x86_64
+cLd /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools normal i386
+cCreateUniversalBinary /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools normal "x86_64 i386"
+cTouch /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004EE86EFB00000000000000EE
+t1323855611
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D5A279000000000000367FC
+t1297754000
+s223228
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC40376000000000000043A
+t1287914358
+s1082
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/objc-auto.h
+c000000004CC31CFD0000000000002637
+t1287855357
+s9783
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/manul/Documents/EnglishDialogs/Actor.h
+c000000004F2101110000000000000151
+t1327563025
+s337
+i<CoreData/CoreData.h>
+
+N/Users/manul/Documents/EnglishDialogs/Dialog.h
+c000000004F20FAD3000000000000026A
+t1327561427
+s618
+i<CoreData/CoreData.h>
+
+N/Users/manul/Documents/EnglishDialogs/Phrase.h
+c000000004F2101110000000000000245
+t1327563025
+s581
+i<CoreData/CoreData.h>
+
+N/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m
+c000000004F21011100000000000000F2
+t1327563025
+s242
+i"Actor.h"
+
+N/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m
+c000000004F20FAD3000000000000016A
+t1327561427
+s362
+i"Dialog.h"
+
+N/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld
+c000000004F2101380000000000000088
+t1327563064
+s136
+
+N/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m
+c000000004F2101110000000000000172
+t1327563025
+s370
+i"Phrase.h"
+i"Actor.h"
+i"Dialog.h"
+
+N/Users/manul/Documents/EnglishDialogsTools/English.lproj/InfoPlist.strings
+c000000004F210198000000000000002D
+t1327563160
+s45
+
+N/Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib
+c000000004F27CAF30000000000029F87
+t1328007923
+s171911
+
+N/Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib
+c000000004F27CF290000000000008737
+t1328009001
+s34615
+
+N/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.h
+c000000004F27C95B0000000000000428
+t1328007515
+s1064
+i<Cocoa/Cocoa.h>
+i<CoreData/CoreData.h>
+
+N/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m
+c000000004F27D1990000000000000F88
+t1328009625
+s3976
+i"EnglishDialogsToolsAppDelegate.h"
+i"NewDialogViewController.h"
+
+N/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch
+c000000004F21019800000000000000A9
+t1327563160
+s169
+i<Cocoa/Cocoa.h>
+
+N/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.h
+c000000004F27CBFC000000000000023F
+t1328008188
+s575
+i<Foundation/Foundation.h>
+
+N/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m
+c000000004F27C3780000000000000362
+t1328006008
+s866
+i"NewDialogViewController.h"
+i"EnglishDialogsToolsAppDelegate.h"
+
+N/Users/manul/Documents/EnglishDialogsTools/Sample.classdescription
+c000000004F2105DA00000000000000EC
+t1327564250
+s236
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app
+t1328009629
+s102
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Info.plist
+t1327563169
+s1320
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools
+t1328009629
+s63180
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/PkgInfo
+t1327563169
+s8
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1327563170
+s92
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/MainMenu.nib
+t1328007930
+s38373
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/NewDialogWindow.nib
+t1328009006
+s9320
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd
+t1327563877
+s136
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/Sample.classdescription
+t2
+s0
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/test.txt
+t1328004894
+s14
+
+N/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/untitled.nib
+t2
+s0
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Actor.o
+t1327935628
+s5084
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Dialog.o
+t1327935628
+s5276
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools
+t1328009629
+s26316
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools.LinkFileList
+c000000004F27BF1E0000000000000356
+t1328004894
+s854
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsToolsAppDelegate.o
+t1328009629
+s34964
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/NewDialogViewController.o
+t1328008214
+s25112
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Phrase.o
+t1327935628
+s5248
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/main.o
+t1327935628
+s4876
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Actor.o
+t1327565167
+s5900
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Dialog.o
+t1327565167
+s6340
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools
+t1328009629
+s30768
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools.LinkFileList
+c000000004F27BF1E0000000000000362
+t1328004894
+s866
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsToolsAppDelegate.o
+t1328009628
+s46740
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/NewDialogViewController.o
+t1328008214
+s28680
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Phrase.o
+t1327565167
+s6300
+
+N/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/main.o
+t1327567624
+s5008
+
+N/Users/manul/Documents/EnglishDialogsTools/main.m
+c000000004F2110AF0000000000000224
+t1327567023
+s548
+i<Cocoa/Cocoa.h>
+i<CoreData/CoreData.h>
+i<objc/objc-auto.h>
+
+N/Users/manul/Documents/EnglishDialogsTools/test.txt
+c000000004F278821000000000000000E
+t1327990817
+s14
+
+N/Users/manul/Documents/EnglishDialogsTools/untitled.xib
+c000000004F21062B000000000000A3C3
+t1327564331
+s41923
+
+N/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch.gch
+t1327565166
+s54310672
+
+N/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-dhlahonjdpfymodppnlasgmnqome/EnglishDialogsTools_Prefix.pch.gch
+t1327563172
+s54306576
+
+N/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch.gch
+t1327935627
+s56944432
+
+NEnglishDialogsTools-Info.plist
+c000000004F21019800000000000003EA
+t1327563160
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies349702428#349702428#0(0"0(0#1#0"8022163724341895168#0"0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Actor.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349628427.338198
+e349628428.108790
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Actor.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m349628427#349628428#0(0"0(0#0#68"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m4664446896#1763"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Actor.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Dialog.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349628428.107690
+e349628428.332566
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Dialog.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m349628428#349628428#0(0"0(0#0#69"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m4391312928#1765"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Dialog.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsToolsAppDelegate.o /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349702428.303615
+e349702429.140215
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsToolsAppDelegate.o
+x/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m349702428#349702429#0(0"0(0#0#75"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m4305484016#1795"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsToolsAppDelegate.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/NewDialogViewController.o /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349701011.206203
+e349701014.816220
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/NewDialogViewController.o
+x/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m349701011#349701014#0(0"0(0#0#68"/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m4663260816#1781"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/NewDialogViewController.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Phrase.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349628428.108925
+e349628428.343069
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Phrase.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m349628428#349628428#0(0"0(0#0#69"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m4391318832#1765"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/Phrase.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/main.o /Users/manul/Documents/EnglishDialogsTools/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349628427.335800
+e349628428.107358
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/main.o
+x/Users/manul/Documents/EnglishDialogsTools/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/manul/Documents/EnglishDialogsTools/main.m349628427#349628428#0(0"0(0#0#49"/Users/manul/Documents/EnglishDialogsTools/main.m4663570480#1743"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/main.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/main.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Actor.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349257966.621970
+e349257967.824949
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Actor.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m349257966#349257967#0(0"0(0#0#68"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m8663624416#1769"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Actor.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Actor.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Dialog.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349257966.622837
+e349257967.821439
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Dialog.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m349257966#349257967#0(0"0(0#0#69"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m8620264576#1771"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Dialog.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Dialog.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsToolsAppDelegate.o /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349702428.300621
+e349702429.082790
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsToolsAppDelegate.o
+x/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m349702428#349702429#0(0"0(0#0#75"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m3419202322156564480#1801"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsToolsAppDelegate.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsToolsAppDelegate.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/NewDialogViewController.o /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349701011.204499
+e349701014.790730
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/NewDialogViewController.o
+x/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m349701011#349701014#0(0"0(0#0#68"/Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m4663226752#1787"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/NewDialogViewController.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/NewDialogViewController.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Phrase.o /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349257967.821534
+e349257967.946607
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Phrase.o
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m349257967#349257967#0(0"0(0#0#69"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m8663100480#1771"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/Phrase.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/Phrase.o0#
+
+CCompileC build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/main.o /Users/manul/Documents/EnglishDialogsTools/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349260422.199702
+e349260424.917548
+r1
+xCompileC
+xbuild/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/main.o
+x/Users/manul/Documents/EnglishDialogsTools/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/manul/Documents/EnglishDialogsTools/main.m349260422#349260424#0(0"0(0#0#49"/Users/manul/Documents/EnglishDialogsTools/main.m8663903200#1749"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -include /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch -c /Users/manul/Documents/EnglishDialogsTools/main.m -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib
+s349700729.767085
+e349700730.390224
+r1
+xCompileXIB
+x/Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib349700729#349700730#0(0"0(0#0#69"/Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib30962681237012596#388"    cd /Users/manul/Documents/EnglishDialogsTools    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/MainMenu.nib /Users/manul/Documents/EnglishDialogsTools/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib
+s349701806.514431
+e349701806.985721
+r1
+xCompileXIB
+x/Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib
+lSLF07#2@44"CompileXIB English.lproj/NewDialogWindow.xib349701806#349701806#0(0"0(0#0#76"/Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib30962681237012596#402"    cd /Users/manul/Documents/EnglishDialogsTools    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/NewDialogWindow.nib /Users/manul/Documents/EnglishDialogsTools/English.lproj/NewDialogWindow.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/manul/Documents/EnglishDialogsTools/untitled.xib
+r0
+
+CCopyPlistFile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/Sample.classdescription Sample.classdescription
+r0
+
+CCopyStringsFile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s349255969.754040
+e349255970.061575
+r1
+xCopyStringsFile
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings349255969#349255970#0(0"0(0#0#74"/Users/manul/Documents/EnglishDialogsTools/English.lproj/InfoPlist.strings8660165792#385"    cd /Users/manul/Documents/EnglishDialogsTools    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/EnglishDialogsTools.app/Contents/Resources/test.txt test.txt
+s349697694.779401
+e349697694.828042
+r1
+xCpResource
+xbuild/Debug/EnglishDialogsTools.app/Contents/Resources/test.txt
+xtest.txt
+lSLF07#2@13"Copy test.txt349697694#349697694#0(0"0(0#0#51"/Users/manul/Documents/EnglishDialogsTools/test.txt32088649863463028#362"    cd /Users/manul/Documents/EnglishDialogsTools    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/manul/Documents/EnglishDialogsTools/test.txt /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools normal "x86_64 i386"
+s349702429.641436
+e349702429.665596
+r1
+xCreateUniversalBinary
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools
+xnormal
+xx86_64 i386
+lSLF07#2@113"CreateUniversalBinary build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools normal "x86_64 i386"349702429#349702429#0(0"0(0#0#54"/Users/manul/Documents/EnglishDialogsTools/x86_64 i3864351219296#494"    cd /Users/manul/Documents/EnglishDialogsTools    /usr/bin/lipo -create /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools -output /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools0#
+
+CDataModelVersionCompile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld
+s349256677.299154
+e349256677.391141
+r1
+xDataModelVersionCompile
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd
+x/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld
+o/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel:Phrase.actor: warning: Phrase.actor -- relationship does not have an inverse 
+o/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel:Phrase.dialog: warning: Phrase.dialog -- relationship does not have an inverse 
+lSLF07#2@144"DataModelVersionCompile build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd ../EnglishDialogs/EnglishDialogs.xcdatamodeld349256677#349256677#0(390"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel:Phrase.actor: warning: Phrase.actor -- relationship does not have an inverse /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel:Phrase.dialog: warning: Phrase.dialog -- relationship does not have an inverse 2(22@54"Phrase.actor -- relationship does not have an inverse 349256677#18446744073709551615#0#0(6@115"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel349255864#0#0#0#0#0"0(22@55"Phrase.dialog -- relationship does not have an inverse 349256677#18446744073709551615#0#0(6@115"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld/EnglishDialogs.xcdatamodel349255864#0#0#0#0#0"0(0#0#88"/Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld8663316320#314"    cd /Users/manul/Documents/EnglishDialogsTools    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/manul/Documents/EnglishDialogsTools/../EnglishDialogs/EnglishDialogs.xcdatamodeld /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Resources/EnglishDialogs.momd0#
+
+CLd /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools normal x86_64
+s349262117.762660
+e349262117.888377
+r1
+xLd
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools
+xnormal
+xx86_64
+lSLF07#2@118"Link /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools349262117#349262117#0(0"0(0#0#0"8661000640#642"    cd /Users/manul/Documents/EnglishDialogsTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/manul/Documents/EnglishDialogsTools/build/Debug -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -filelist /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework CoreData -o /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/MacOS/EnglishDialogsTools0#
+
+CLd /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools normal i386
+s349702429.140763
+e349702429.641280
+r1
+xLd
+x/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools
+xnormal
+xi386
+lSLF07#2@151"Link /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools349702429#349702429#0(0"0(0#0#0"4352418592#671"    cd /Users/manul/Documents/EnglishDialogsTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/manul/Documents/EnglishDialogsTools/build/Debug -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -filelist /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework CoreData -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/i386/EnglishDialogsTools0#
+
+CLd /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools normal x86_64
+s349702429.125017
+e349702429.629548
+r1
+xLd
+x/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools
+xnormal
+xx86_64
+lSLF07#2@153"Link /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools349702429#349702429#0(0"0(0#0#0"4666430192#677"    cd /Users/manul/Documents/EnglishDialogsTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/manul/Documents/EnglishDialogsTools/build/Debug -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -filelist /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework CoreData -o /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/Objects-normal/x86_64/EnglishDialogsTools0#
+
+CProcessInfoPlistFile /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Info.plist EnglishDialogsTools-Info.plist
+s349255969.750239
+e349255969.753944
+r1
+xProcessInfoPlistFile
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Info.plist
+xEnglishDialogsTools-Info.plist
+lSLF07#2@38"Process EnglishDialogsTools-Info.plist349255969#349255969#0(0"0(0#0#73"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools-Info.plist8660764832#358"    cd /Users/manul/Documents/EnglishDialogsTools    builtin-infoPlistUtility EnglishDialogsTools-Info.plist -genpkginfo /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch.gch EnglishDialogsTools_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349257962.404270
+e349257966.606134
+r1
+xProcessPCH
+x/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch.gch
+xEnglishDialogsTools_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile EnglishDialogsTools_Prefix.pch349257962#349257966#0(0"0(0#0#73"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch8645492704#1639"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -c /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch -o /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-anvjfnotrezjhzgceqqcqjkpvsfo/EnglishDialogsTools_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-dhlahonjdpfymodppnlasgmnqome/EnglishDialogsTools_Prefix.pch.gch EnglishDialogsTools_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s349255970.091005
+e349255972.876586
+r1
+xProcessPCH
+x/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-dhlahonjdpfymodppnlasgmnqome/EnglishDialogsTools_Prefix.pch.gch
+xEnglishDialogsTools_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile EnglishDialogsTools_Prefix.pch349255970#349255972#0(0"0(0#0#73"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch8662453728#1624"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/x86_64 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -c /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch -o /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-dhlahonjdpfymodppnlasgmnqome/EnglishDialogsTools_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch.gch EnglishDialogsTools_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s349628422.363801
+e349628427.320413
+r1
+xProcessPCH
+x/var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch.gch
+xEnglishDialogsTools_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile EnglishDialogsTools_Prefix.pch349628422#349628427#0(0"0(0#0#73"/Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch7019216709637204992#1635"    cd /Users/manul/Documents/EnglishDialogsTools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-generated-files.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-own-target-headers.hmap -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-all-target-headers.hmap -iquote /Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/EnglishDialogsTools-project-headers.hmap -F/Users/manul/Documents/EnglishDialogsTools/build/Debug -I/Users/manul/Documents/EnglishDialogsTools/build/Debug/include -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources/i386 -I/Users/manul/Documents/EnglishDialogsTools/build/EnglishDialogsTools.build/Debug/EnglishDialogsTools.build/DerivedSources -c /Users/manul/Documents/EnglishDialogsTools/EnglishDialogsTools_Prefix.pch -o /var/folders/7u/7uuLb4TmGG4kkZ0o5PR++++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EnglishDialogsTools_Prefix-glgttvmpxtnnmneazfdtsqxkvisp/EnglishDialogsTools_Prefix.pch.gch0#
+
+CTouch /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app
+s349702429.665742
+e349702429.679875
+r1
+xTouch
+x/Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app
+lSLF07#2@84"Touch /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app349702429#349702429#0(0"0(0#0#0"4351338016#151"    cd /Users/manul/Documents/EnglishDialogsTools    /usr/bin/touch -c /Users/manul/Documents/EnglishDialogsTools/build/Debug/EnglishDialogsTools.app0#
+
