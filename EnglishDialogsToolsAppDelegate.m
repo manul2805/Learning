@@ -42,7 +42,12 @@
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag {
     NSLog(@"Reopen");
     //[NSApp 
-    if (!flag)  [window makeKeyAndOrderFront:nil];
+    //if (!flag)  [window makeKeyAndOrderFront:nil];
+    //return YES;
+    return NO;
+}
+
+-(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
     return YES;
 }
 

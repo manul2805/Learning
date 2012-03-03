@@ -12,15 +12,15 @@
 		820A201514EE7CA300FC5ED6 /* ActorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A201414EE7CA300FC5ED6 /* ActorCell.m */; };
 		820A201C14F2543300FC5ED6 /* ActorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A201B14F2543300FC5ED6 /* ActorTableView.m */; };
 		820A201F14F279B900FC5ED6 /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A201E14F279B900FC5ED6 /* Dialog.m */; };
-		8212BF1614D1395200AA84D5 /* EnglishDialogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8212BF1414D1395200AA84D5 /* EnglishDialogs.xcdatamodeld */; };
-		8212BF2114D139A200AA84D5 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8212BF1C14D139A200AA84D5 /* Actor.m */; };
 		8212BF3A14D13F9800AA84D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8212BF3914D13F9800AA84D5 /* CoreData.framework */; };
 		8222743E14E3F71B00E0E5FA /* ColorToNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8222743D14E3F71B00E0E5FA /* ColorToNumber.m */; };
+		82718FE31501EB7400F8F1BE /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82718FE21501EB7400F8F1BE /* Actor.m */; };
+		82718FE81501EB8700F8F1BE /* EnglishDialogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82718FE41501EB8700F8F1BE /* EnglishDialogs.xcdatamodeld */; };
+		82718FF11502034900F8F1BE /* README in Resources */ = {isa = PBXBuildFile; fileRef = 82718FF01502034900F8F1BE /* README */; };
 		8290F6AE14F502B9000B4549 /* Phrase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8290F6AD14F502B9000B4549 /* Phrase.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C01FCF5008A954540054247D /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01FCF5008A954540054247C /* test.txt */; };
 		C01FCF5008A954540054247F /* NewDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FCF5008A954540054247E /* NewDialogViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,19 +41,20 @@
 		820A201B14F2543300FC5ED6 /* ActorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorTableView.m; sourceTree = "<group>"; };
 		820A201D14F279B900FC5ED6 /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
 		820A201E14F279B900FC5ED6 /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
-		8212BF1514D1395200AA84D5 /* EnglishDialogs.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = EnglishDialogs.xcdatamodel; sourceTree = "<group>"; };
-		8212BF1B14D139A200AA84D5 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Actor.h; path = ../EnglishDialogs/Actor.h; sourceTree = SOURCE_ROOT; };
-		8212BF1C14D139A200AA84D5 /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Actor.m; path = ../EnglishDialogs/Actor.m; sourceTree = SOURCE_ROOT; };
 		8212BF3914D13F9800AA84D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8222743C14E3F71B00E0E5FA /* ColorToNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorToNumber.h; sourceTree = "<group>"; };
 		8222743D14E3F71B00E0E5FA /* ColorToNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorToNumber.m; sourceTree = "<group>"; };
-		82457AAC14F28A9F00615CFA /* EnglishDialogs 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EnglishDialogs 2.xcdatamodel"; sourceTree = "<group>"; };
-		8290F6A814F4FB49000B4549 /* EnglishDialogs 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EnglishDialogs 3.xcdatamodel"; sourceTree = "<group>"; };
+		82718FE11501EB7400F8F1BE /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		82718FE21501EB7400F8F1BE /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		82718FE51501EB8700F8F1BE /* EnglishDialogs 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EnglishDialogs 2.xcdatamodel"; sourceTree = "<group>"; };
+		82718FE61501EB8700F8F1BE /* EnglishDialogs 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EnglishDialogs 3.xcdatamodel"; sourceTree = "<group>"; };
+		82718FE71501EB8700F8F1BE /* EnglishDialogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnglishDialogs.xcdatamodel; sourceTree = "<group>"; };
+		82718FE91501F5FE00F8F1BE /* EnglishDialogs 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EnglishDialogs 4.xcdatamodel"; sourceTree = "<group>"; };
+		82718FF01502034900F8F1BE /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8290F6AC14F502B9000B4549 /* Phrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phrase.h; sourceTree = "<group>"; };
 		8290F6AD14F502B9000B4549 /* Phrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phrase.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* EnglishDialogsTools-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EnglishDialogsTools-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* EnglishDialogsTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishDialogsTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C01FCF5008A954540054247C /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		C01FCF5008A954540054247E /* NewDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDialogViewController.m; sourceTree = "<group>"; };
 		C01FCF5008A9545400542480 /* NewDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDialogViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,14 +75,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				82718FE11501EB7400F8F1BE /* Actor.h */,
+				82718FE21501EB7400F8F1BE /* Actor.m */,
 				8290F6AC14F502B9000B4549 /* Phrase.h */,
 				8290F6AD14F502B9000B4549 /* Phrase.m */,
 				820A201D14F279B900FC5ED6 /* Dialog.h */,
 				820A201E14F279B900FC5ED6 /* Dialog.m */,
 				C01FCF5008A9545400542480 /* NewDialogViewController.h */,
 				C01FCF5008A954540054247E /* NewDialogViewController.m */,
-				8212BF1B14D139A200AA84D5 /* Actor.h */,
-				8212BF1C14D139A200AA84D5 /* Actor.m */,
 				256AC3D80F4B6AC300CF3369 /* EnglishDialogsToolsAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* EnglishDialogsToolsAppDelegate.m */,
 				8222743C14E3F71B00E0E5FA /* ColorToNumber.h */,
@@ -145,8 +146,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C01FCF5008A954540054247C /* test.txt */,
-				8212BF1414D1395200AA84D5 /* EnglishDialogs.xcdatamodeld */,
+				82718FF01502034900F8F1BE /* README */,
+				82718FE41501EB8700F8F1BE /* EnglishDialogs.xcdatamodeld */,
 				8D1107310486CEB800E47090 /* EnglishDialogsTools-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -218,7 +219,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				C01FCF5008A954540054247D /* test.txt in Resources */,
+				82718FF11502034900F8F1BE /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +232,14 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* EnglishDialogsToolsAppDelegate.m in Sources */,
-				8212BF1614D1395200AA84D5 /* EnglishDialogs.xcdatamodeld in Sources */,
-				8212BF2114D139A200AA84D5 /* Actor.m in Sources */,
 				C01FCF5008A954540054247F /* NewDialogViewController.m in Sources */,
 				8222743E14E3F71B00E0E5FA /* ColorToNumber.m in Sources */,
 				820A201514EE7CA300FC5ED6 /* ActorCell.m in Sources */,
 				820A201C14F2543300FC5ED6 /* ActorTableView.m in Sources */,
 				820A201F14F279B900FC5ED6 /* Dialog.m in Sources */,
 				8290F6AE14F502B9000B4549 /* Phrase.m in Sources */,
+				82718FE31501EB7400F8F1BE /* Actor.m in Sources */,
+				82718FE81501EB8700F8F1BE /* EnglishDialogs.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,16 +346,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8212BF1414D1395200AA84D5 /* EnglishDialogs.xcdatamodeld */ = {
+		82718FE41501EB8700F8F1BE /* EnglishDialogs.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				82457AAC14F28A9F00615CFA /* EnglishDialogs 2.xcdatamodel */,
-				8290F6A814F4FB49000B4549 /* EnglishDialogs 3.xcdatamodel */,
-				8212BF1514D1395200AA84D5 /* EnglishDialogs.xcdatamodel */,
+				82718FE91501F5FE00F8F1BE /* EnglishDialogs 4.xcdatamodel */,
+				82718FE51501EB8700F8F1BE /* EnglishDialogs 2.xcdatamodel */,
+				82718FE61501EB8700F8F1BE /* EnglishDialogs 3.xcdatamodel */,
+				82718FE71501EB8700F8F1BE /* EnglishDialogs.xcdatamodel */,
 			);
-			currentVersion = 8290F6A814F4FB49000B4549 /* EnglishDialogs 3.xcdatamodel */;
-			name = EnglishDialogs.xcdatamodeld;
-			path = ../EnglishDialogs/EnglishDialogs.xcdatamodeld;
+			currentVersion = 82718FE91501F5FE00F8F1BE /* EnglishDialogs 4.xcdatamodel */;
+			path = EnglishDialogs.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -2,7 +2,7 @@
 //  Dialog.h
 //  EnglishDialogsTools
 //
-//  Created by Kovardykov Pavel on 20.02.12.
+//  Created by Павел Ковардыков on 03.03.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -13,12 +13,12 @@
 
 @interface Dialog : NSManagedObject
 
-@property (nonatomic, retain) NSString * nativeText;
+@property (nonatomic, retain) id nativeText;
 @property (nonatomic, retain) NSNumber * orderNumber;
 @property (nonatomic, retain) NSString * audioFile;
 @property (nonatomic, retain) NSNumber * duration;
 @property (nonatomic, retain) NSString * groupName;
-@property (nonatomic, retain) NSString * translateText;
+@property (nonatomic, retain) id translateText;
 @property (nonatomic, retain) NSNumber * completed;
 @property (nonatomic, retain) NSString * titleDialog;
 @property (nonatomic, retain) NSSet *phrases;
