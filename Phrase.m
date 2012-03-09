@@ -2,7 +2,7 @@
 //  Phrase.m
 //  EnglishDialogsTools
 //
-//  Created by Kovardykov Pavel on 22.02.12.
+//  Created by Павел Ковардыков on 10.03.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,9 +14,9 @@
 @implementation Phrase
 
 @dynamic text;
-@dynamic sampleEnd;
-@dynamic sampleStart;
 @dynamic lineNumber;
+@dynamic startRange;
+@dynamic endRange;
 @dynamic actor;
 @dynamic dialog;
 

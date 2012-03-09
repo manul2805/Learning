@@ -8,11 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 #import <CoreData/CoreData.h>
+#import <AVFoundation/AVFoundation.h>
 
-@class NewDialogViewController;
+@class NewDialogViewController,AudioPlaybackController;
 
 @interface EnglishDialogsToolsAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    AVAudioPlayer*player;
 	
 	NSManagedObjectModel* managedObjectModel_;
 	NSManagedObjectContext* managedObjectContext_;
@@ -29,12 +31,14 @@
     IBOutlet NSWindow* phraseDetailWindow;
     IBOutlet NSArrayController * phraseSet;
     IBOutlet NSTableView* phrasesView;
+    IBOutlet AudioPlaybackController* audioPlaybackController;
 	
 }
 
 @property(nonatomic,retain, readonly) NSManagedObjectModel* managedObjectModel;
 @property(nonatomic,retain, readonly) IBOutlet NSManagedObjectContext* managedObjectContext;
 @property(nonatomic,retain, readonly) NSPersistentStoreCoordinator* persistentStoreCoordinator;
+@property(readonly) AudioPlaybackController* audioPlaybackController;
 
 @property(readonly) IBOutlet NSArray* sortPhrases;
 
@@ -51,8 +55,12 @@
 -(IBAction)deletePhrase:(id)sender;
 -(IBAction)editPhrase:(id)sender;
 -(IBAction)closePhraseDetail:(id)sender;
-
-
+-(IBAction)showAudioPanel:(id)sender;
+-(IBAction)updateDialogAudio:(id)sender;
+-(IBAction)updatePhraseAudio:(id)sender;
+-(IBAction)playPhrase:(id)sender;
+-(IBAction)playDialog:(id)sender;
+-(void)stopPlayer:(NSTimer*) timer;
 @property (assign) IBOutlet NSWindow *window;
 
 @end

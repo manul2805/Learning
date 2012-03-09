@@ -2,7 +2,7 @@
 //  Phrase.h
 //  EnglishDialogsTools
 //
-//  Created by Kovardykov Pavel on 22.02.12.
+//  Created by Павел Ковардыков on 10.03.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,9 +14,9 @@
 @interface Phrase : NSManagedObject
 
 @property (nonatomic, retain) NSString * text;
-@property (nonatomic, retain) NSNumber * sampleEnd;
-@property (nonatomic, retain) NSNumber * sampleStart;
 @property (nonatomic, retain) NSNumber * lineNumber;
+@property (nonatomic, retain) NSNumber * startRange;
+@property (nonatomic, retain) NSNumber * endRange;
 @property (nonatomic, retain) Actor *actor;
 @property (nonatomic, retain) Dialog *dialog;
 

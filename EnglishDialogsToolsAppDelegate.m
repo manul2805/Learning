@@ -9,10 +9,13 @@
 #import "EnglishDialogsToolsAppDelegate.h"
 #import "NewDialogViewController.h"
 #import "ActorCell.h"
+#import "AudioPlaybackController.h"
+#import "Dialog.h"
+#import "Phrase.h"
 
 @implementation EnglishDialogsToolsAppDelegate
 
-@synthesize window;
+@synthesize window,audioPlaybackController;
 #pragma mark -
 #pragma mark Application Life Cycle
 -(void) applicationWillFinishLaunching:(NSNotification *)notification {
@@ -188,5 +191,71 @@
 -(IBAction)editPhrase:(id)sender{    
     NSLog(@"Edit phrase");
     [self editInSet:phraseSet at: phraseDetailWindow];
+}
+
+#pragma mark -
+#pragma mark Audio Playback
+-(void)showAudioPanel:(id)sender{
+    if ([dialogSet selectionIndex]!=NSNotFound) {        
+        Dialog* dialog = [[dialogSet selectedObjects] objectAtIndex:0];
+        audioPlaybackController.fileName = dialog.audioFile;
+    }
+    if ([phraseSet selectionIndex]!=NSNotFound) {
+        Phrase* phrase = [[phraseSet selectedObjects] objectAtIndex:0];
+        audioPlaybackController.startRange = [phrase.startRange doubleValue];
+        audioPlaybackController.endRange = [phrase.endRange doubleValue];
+    }
+    [audioPlaybackController.window makeKeyAndOrderFront:self];
+}
+
+-(void)updateDialogAudio:(id)sender{
+    for (Dialog*item in [dialogSet selectedObjects]) {
+        item.audioFile = audioPlaybackController.fileName;
+    }
+    [self saveContext] ;
+}
+-(void)updatePhraseAudio:(id)sender{
+    for (Phrase*item in [phraseSet selectedObjects]) {
+        item.startRange = [NSNumber numberWithDouble: audioPlaybackController.startRange];
+        item.endRange = [NSNumber numberWithDouble: audioPlaybackController.endRange];
+    }
+    [self saveContext] ;
+}
+
+-(void)playDialog:(id)sender{
+    if ([dialogSet selectionIndex]!=NSNotFound) {
+        if (player.playing) {
+            [player stop];
+            return;
+        }
+
+        Dialog* dialog=[[dialogSet selectedObjects] objectAtIndex:0];
+        player = [[AVAudioPlayer alloc] 
+                             initWithContentsOfURL:[NSURL fileURLWithPath:dialog.audioFile] error:nil];
+        [player prepareToPlay];
+        [player play];
+    }
+}
+-(void)playPhrase:(id)sender{
+    if ([dialogSet selectionIndex]!=NSNotFound && [phraseSet selectionIndex]!=NSNotFound) {
+        if (player.playing) {
+            [player stop];
+            
+        }
+        Dialog* dialog=[[dialogSet selectedObjects] objectAtIndex:0];        
+        Phrase* phrase=[[phraseSet selectedObjects] objectAtIndex:0];
+        player = [[AVAudioPlayer alloc] 
+                                 initWithContentsOfURL:[NSURL fileURLWithPath:dialog.audioFile] error:nil];
+        [player prepareToPlay];
+        player.currentTime = [phrase.startRange doubleValue];
+        [player play ];
+        [[NSRunLoop currentRunLoop] 
+         addTimer:[NSTimer timerWithTimeInterval:[phrase.endRange doubleValue] - [phrase.startRange doubleValue]
+                                          target:self selector:@selector(stopPlayer:) userInfo:player repeats:NO]  forMode:NSDefaultRunLoopMode];
+        //[player playAtTime: [phrase.endRange doubleValue]-[phrase.startRange doubleValue]];
+    }
+}
+-(void)stopPlayer:(NSTimer *)timer{
+    [timer.userInfo stop];
 }
 @end
